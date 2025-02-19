@@ -50,5 +50,5 @@ app.post('/receive-wpp', (req, res) => {
 
 
 app.listen(port, () => {
-    console.log("Servidor rodando na porta 8080")
+    console.log("Servidor rodando na porta, ", port)
 })
